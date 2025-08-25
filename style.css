@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgba(8, 53, 105, 0.986);
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.center-img h1 {
+    margin-bottom: 40px; /* distanza tra h1 e immagine */
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 20px 25px rgba(0, 0, 0, 0.986);
+
+}
+
+
+/* Mobile compatibility */
+@media (max-width: 600px) {
+    .center-img {
+        height: 60vh;
+    }
+    .center-img img {
+        max-width: 90vw;
+    }
+}
