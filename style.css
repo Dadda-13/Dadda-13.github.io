@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .center-img img {
-    max-width: 350px; /* puoi modificare la dimensione */
+    max-width: 250px;
     width: 100%;
     height: auto;
     display: block;
@@ -109,3 +109,4 @@ h1, h2 {
         padding-bottom: 80px;
     }
 }
+
